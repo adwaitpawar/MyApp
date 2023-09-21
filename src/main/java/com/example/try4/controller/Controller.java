@@ -11,4 +11,8 @@ public class Controller {
         ModelAndView mav = new ModelAndView("index");
         return mav;
     }
+    @GetMapping("/Adwait")
+	String return2(){
+		return "Hello AdWAit";
+    }
 }
