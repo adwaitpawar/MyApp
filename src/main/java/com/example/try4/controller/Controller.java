@@ -11,7 +11,7 @@ public class Controller {
         ModelAndView mav = new ModelAndView("index");
         return mav;
     }
-    @GetMapping("/Adwait , method = RequestMethod.POST")
+    @GetMapping("/Adwait")
 	String return2(){
 		return "Hello AdWAit";
     }
